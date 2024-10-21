@@ -8,6 +8,7 @@ app.get('/hello', (req, res) => {
 });
 
 console.log('Greetings from the main branch!');
+console.log('Hello Wield!');
 
 app.listen(port, () => {
     console.log(`App is running at http://localhost:${port}`);
